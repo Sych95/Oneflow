@@ -435,3 +435,81 @@ p {
      object-fit: contain;
   max-width: 100%;
 }
+
+.video-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.opportunities {
+  min-height: 2432px;
+  background-image: url("../img/bg.jpg");
+}
+
+.opportunities-wrapper {
+  max-width: 1153px;
+  margin: auto;
+}
+
+.opportunities-title {
+  max-width: 830px;
+  margin: 0 auto 125px;
+  padding-top: 120px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 8rem;
+  text-align: center;
+  color: #013A4C;
+}
+
+.opportunities-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.opportunities-item:not(:last-child) {
+  margin-bottom: 125px;
+}
+
+.opportunities-item:nth-child(2n+2) {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.opportunities-img-wrapper {
+  max-width: 110px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.opportunities-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.opportunities-item-title {
+  margin-bottom: 35px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 5.4rem;
+  color: #013A4C;
+}
+
+.opportunities-description {
+  max-width: 520px;
+  font-family: "Work Sans";
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #013A4C;
+}
