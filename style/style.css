@@ -53,6 +53,12 @@ p {
   margin: 0;
 }
 
+.cite {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .header-wrapper {
   max-width: 1440px;
   padding: 0 30px;
@@ -147,6 +153,10 @@ p {
 .header__main-wrapper {
   padding: 210px 144px 312px;
   max-width: 1155px;
+}
+
+.main {
+  max-width: 100vw;
 }
 
 .main-title {
@@ -437,6 +447,7 @@ p {
 }
 
 .video-img {
+  max-width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -511,5 +522,151 @@ p {
   font-family: "Work Sans";
   font-size: 1.8rem;
   line-height: 2.4rem;
+  color: #013A4C;
+  margin-bottom: 17px;
+}
+
+.opportunities-btn__tour {
+  font-family: "Work Sans";
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+  padding: 11px 17px;
+  border-radius: 4px;
+  background: #013A4C;
+  border: 1px solid #013A4C;
+}
+
+.believe-wrapper {
+  padding-top: 295px;
+  padding-left: 145px;
+  max-width: 625px;
+}
+
+.believe {
+  min-height: 850px;
+  max-width: 1440px;
+  background-image: url("../img/believe-bg.png");
+}
+
+.believe-title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 7.3rem;
+  line-height: 7.8rem;
+  letter-spacing: 2px;
+  color: #F2DCE4;
+  margin-bottom: 31px;
+}
+
+.believe-description {
+  font-family: "Work Sans";
+  max-width: 470px;
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.demo-btn {
+  min-width: 114px;
+  margin-right: 8px;
+  background-color: #FFD063;
+  padding: 11px 17px;
+  -webkit-box-shadow: 0px 0px 10px rgba(1, 58, 76, 0.2);
+          box-shadow: 0px 0px 10px rgba(1, 58, 76, 0.2);
+  border-radius: 0px;
+}
+
+.feedback-title {
+  margin-left: 145px;
+}
+
+.feedback-title {
+  padding-top: 130px;
+  margin-bottom: 55px;
+  font-family: "Roboto";
+  font-size: 4.8rem;
+  line-height: 5.4rem;
+  letter-spacing: 0.4px;
+  color: #013A4C;
+}
+
+.feedback-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100vw;
+  overflow: scroll;
+}
+
+.feedback-item {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 375px;
+  width: 100%;
+  min-width: 375px;
+  padding: 65px 34px;
+  border: 1px solid #D6DFE2;
+  border-radius: 8px;
+}
+.feedback-item:not(:last-child) {
+  margin-right: 14px;
+}
+.feedback-item:last-child {
+  margin-right: 145px;
+}
+.feedback-item:first-child {
+  margin-left: 145px;
+}
+
+.feedback-cite {
+  display: block;
+  max-width: 308px;
+  margin-bottom: 18px;
+  font-family: "Work Sans";
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #013A4C;
+}
+
+.feedback-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.readmore {
+  font-family: "Work Sans";
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 100px;
+  color: #89285B;
+}
+
+.author-bio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author-info {
+  margin-left: 16px;
+  font-family: "Work Sans";
+  font-size: 1.4rem;
+  line-height: 2rem;
   color: #013A4C;
 }
